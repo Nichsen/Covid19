@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+# @Author: Nichsen   https://github.com/Nichsen 
+# @Date:   2021-10-07 18:24:20
+# @Last Modified by:   Nichsen   https://github.com/Nichsen 
+# @Last Modified time: 2021-10-07 18:47:50
 HEAD = '''<html>
 <head>
   <link rel="stylesheet" href="styles.css">

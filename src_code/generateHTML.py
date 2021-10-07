@@ -1,9 +1,15 @@
-import json
+# -*- coding: utf-8 -*-
+# @Author: Nichsen   https://github.com/Nichsen 
+# @Date:   2021-10-07 18:24:22
+# @Last Modified by:   Nichsen   https://github.com/Nichsen 
+# @Last Modified time: 2021-10-07 19:05:29
 import datetime
+import json
 import os
-import Data.HTML_GEN_DATA as HTML_DATA
 
-def genHtmlfile():
+import Data.HTML_GEN_DATA as HTML_DATA  # file containg variables with html stuff as strings
+
+def genHtmlfile(): # "dump tool" generationg html form json data creating a simple html from "block code :-/"
     date= datetime.datetime.now()
     date = date.strftime("%Y_%m_%d")
     date2 = date
@@ -34,8 +40,7 @@ def genHtmlfile():
     #print(y2)
     #print(y3)
 
-    #generate HTML:
-    # erezuge dir html datei als datei mit den daten aus json!
+    #generate HTML with json stuff:   
     htmlPath = "./HTML/report_"+ str(date2)+ ".html"
     f = open(htmlPath, "w")
     f.write(HTML_DATA.HEAD)
