@@ -3,7 +3,7 @@
 @REM @Last Modified by:   Nichsen   https://github.com/Nichsen 
 @REM Modified time: 2021-10-07 18:48:06@echo ofF
 
-REM Will just call the python and HTML
+REM Will just call the python and HTML an open it in defaul browser
 
 .\CreateNewPlot.py
 
